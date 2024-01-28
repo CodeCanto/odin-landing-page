@@ -10,6 +10,7 @@
 #header-logo-links-container {
     display: flex;
     justify-content: space-between;
+    flex: 1 1 1;
 }
 
 #header-logo {
@@ -28,7 +29,8 @@
 #hero-image-container {
     display: flex;
     justify-content: space-between;
-    padding: 150px 0px; 
+    padding: 150px 0px;
+    
 }
 
 #hero-text-container {
@@ -53,7 +55,6 @@
     font-weight: bolder;
     color: #F9FAF8;
     padding-right: 0px;
-    
 }
 
 .hero-header-text {
@@ -67,23 +68,61 @@ img {
 }
 
 #lower-partition {
-   
+   background-color: white;
+   display: flex;
+   flex-flow: column;
 }
 
 #information-header-text {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    margin: 50px auto;
+}
+
+#info-boxes-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+.infobox {
+    border: solid 5px #3882f6;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.hero-header-text.infotext {
+    color: black;
+    height: auto;
+    width: 200px;
+    margin: 0 auto;
+    font-weight: lighter;
 }
 
 #quote-section {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    margin: 350px auto;
+    padding: 150px 400px;
 }
 
 #quote-text {
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
     color: #1F2937;
+    font-weight: lighter;
+    width: 100%;
+}
+
+#author {
+    margin: auto 0px 0px auto;
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 28px;
 }
 
 #sign-up-box {
