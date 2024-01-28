@@ -127,15 +127,36 @@ img {
 
 #sign-up-box {
     background-color: #3882f6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+    gap: 800px;
 }
+
+#sign-up-text {
+   line-height: 3px;
+}
+
+#sign-up-description {
+    font-weight: lighter;
+}
+
 
 .sign-up-button {
     font-weight: bolder;
     font-size: large;
     background-color: #3882f6;
     border-radius: 12px;
-    padding: 5px;
+    border: solid white 2px;
+    padding: 1px 3.5px;
+    height: 50px;
+    width: 175px;
+    align-self: center;
+    color: white;
 }
+
+
 
 
 
